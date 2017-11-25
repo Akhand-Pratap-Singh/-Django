@@ -1,0 +1,11 @@
+{% if obj %}
+
+{% for k in obj %}
+<hr>
+{{ k.name }}<br>
+{{ k.emailid }}<br>
+{{ k.contact_no }}<br>
+{{ k.dat }}<br>
+<hr>
+{% endfor %}
+{% endif %}
